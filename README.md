@@ -6,6 +6,8 @@ Os dados foram retirados do [Kaggle](https://www.kaggle.com/datasets/lsind18/eur
 
 ## Visualização
 
+A execução pode ser vista no [Streamlit](https://share.streamlit.io/yamgomes/mlops-week-04/main)
+
 ![Gráfico](./chart.png)
 
 O projeto pode também ser visualizado clonando o repositório e executando ```streamlit run ./streamlit_app.py```
