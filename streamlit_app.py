@@ -6,7 +6,7 @@ Author: Yam
 Dat-e: May 2022
 '''
 import logging
-import matplotlib.style as style
+# import matplotlib.style as style
 import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit
@@ -74,7 +74,7 @@ def plot(dataframe_entrada):
 
     dataframe['rolling_mean'] = dataframe['Real'].rolling(30).mean()
 
-    style.use('fivethirtyeight')
+    # style.use('fivethirtyeight')
 
     dataframe_lula = dataframe.copy()[(dataframe['Tempo'].dt.year >= 2003) & (
         dataframe['Tempo'].dt.year < 2011)]
