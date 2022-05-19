@@ -113,7 +113,7 @@ def plot(dataframe_entrada):
     ### Ax2: Dilma
     ax2.plot(dataframe_dilma['Tempo'], dataframe_dilma['rolling_mean'],
              color='#22dd22')
-    ax2.set_xticklabels(['', '2011', '2012', '2013', '2014', '2015', '2016'],
+    ax2.set_xticklabels(['', '', '2012', '', '2014', '', '2016'],
                         alpha=0.5)
 
     ### Ax3: Temer
