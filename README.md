@@ -9,3 +9,7 @@ Os dados foram retirados do [Kaggle](https://www.kaggle.com/datasets/lsind18/eur
 ![Gráfico](./chart.png)
 
 O projeto pode também ser visualizado clonando o repositório e executando ```streamlit run ./streamlit_app.py```
+
+## Vídeo
+
+[Vídeo no Loom](https://www.loom.com/share/cc75948ef3c04de6aa480bf3439b56d5?sharedAppSource=personal_library)

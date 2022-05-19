@@ -6,7 +6,7 @@ Author: Yam
 Dat-e: May 2022
 '''
 import logging
-from matplotlib import style
+import matplotlib.style as style
 import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit
